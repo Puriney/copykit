@@ -212,7 +212,8 @@ plotHeatmap <- function(scCNA,
             )
 
         # special ploidy colors if ground state rounds to 2
-        if (round(mean_ploidy) == 2) {
+        #if (round(mean_ploidy) == 2) {
+        if (T) {
             color_heat <- structure(
                 c(
                     "#3787BA",
